@@ -5,6 +5,11 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
+"""
+https://www.youtube.com/watch?v=x9pIM2GkbF4
+https://github.com/shreyans29/thesemicolon/blob/master/Handwriting%20Recognition.ipynb
+"""
+
 here = os.path.dirname(os.path.abspath(__file__))
 path_to_train = os.path.join(here, "..", "data", "train.csv")
 data = pd.read_csv(path_to_train)
